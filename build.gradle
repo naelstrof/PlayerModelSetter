@@ -5,6 +5,10 @@ plugins {
 
 import org.gradle.internal.os.OperatingSystem
 
+import java.nio.file.Files
+import java.nio.file.LinkOption
+import java.nio.file.Paths;
+
 ext {
     if (project.hasProperty('hytale_home')) {
         hytaleHome = project.findProperty('hytale_home')

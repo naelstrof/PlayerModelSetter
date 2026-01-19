@@ -1,14 +1,14 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
+    "Group": "Naelstrof",
+    "Name": "PlayerModelSetter",
     "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Description": "Sets your player model on join!",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "naelstrof"
         }
     ],
-    "Website": "example.org",
+    "Website": "koboldkare.com",
     "ServerVersion": "*",
     "Dependencies": {
         
@@ -17,6 +17,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Main": "org.naelstrof.plugin.PlayerModelSetter.PlayerModelSetterPlugin",
     "IncludesAssetPack": true
 }
